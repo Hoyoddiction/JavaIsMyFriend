@@ -10,20 +10,15 @@ public class Car {
         this.yearOfManufacture = yearOfManufacture;
     }
     public void name(){
-        System.out.println("name");
+        System.out.println("name" + name);
     }
     public void maxSpeed(){
-        System.out.println("maxSpeed");
+        System.out.println("maxSpeed" + maxSpeed);
     }
     public void yearOfManufacture(){
-        System.out.println("yearOfManufacture");
+        System.out.println("yearOfManufacture" + yearOfmanufacture);
     }
-    public static void CAR (String[] args) {
-        Car myCar = new Car("AE86",120,1985);
-        myCar.name();
-        myCar.yearOfManufacture();
-        myCar.maxSpeed();
-    }
+
 
     public void displayInfo() {
         System.out.println("Name: " + name);
